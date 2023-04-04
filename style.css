@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(pink,red);
+}
+.hero:hover{
+    background: linear-gradient(white,blue);
+}
+.social-links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+   margin-right: 40px;
+   margin-top: 40px;
+   border-radius: 15px 50px;
+   text-decoration: none;
+   padding: 30px;
+   background-color: black;
+   color: white;
+   font-size: 30px;
+   font-weight: 400;
+}
+ .social-links a:hover{
+   color: black;
+   background: linear-gradient(to top,red,white, yellow);
+    font-weight: 400;
+    font-size: 30px;
+    box-shadow: 0 10px 20px rgba(200, 10, 10, 1);
+} 
+/* .social-links a:hover:nth-child(1){ /* refering the whatapps 
+    color: #ff007f;
+    background-color: white;
+    font-weight: 900;
+    box-shadow: 0 10px 20px #ff007f /* this is used to give the shadow of the element 
+    
+}
+.social-links a:hover:nth-child(2){
+    color: orange;
+    background-color: white;
+    font-weight: 900;
+    box-shadow: 0 10px 20px orange;
+}
+.social-links a:hover:nth-child(3){
+    color: red;
+    background-color: white;
+    font-weight: 900;
+    box-shadow: 0 10px 20px rgba(255,0,0);
+} */
+h1::selection{
+    color: gold ;
+    background-color: black;
+    font-weight: 600;
+    font-size: xx-large;
+    padding: 20px;
+}
+
